@@ -45,7 +45,7 @@ def main():
         xdelta3 = Path(f"./air-restoration-{VERSION}/dependencies/xdelta3-v3.1.0-linux")
 
     # List of paks to repack
-    pak_list = [ "bgcg", "charcg" ] 
+    pak_list = [ "bgcg", "charcg", "parts", "syscg" ] 
 
     # Set up the parser
     parser = GooeyParser()
